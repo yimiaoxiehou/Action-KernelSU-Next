@@ -9,11 +9,11 @@ on:
       FEIL:
         description: "配置文件"
         required: true
-        default: 'oneplus_12r'
+        default: 'oneplus_12r_v'
       CPUD:
         description: "处理器代号"
         required: true
-        default: 'sun'
+        default: 'kalama'
       ANDROID_VERSION:
         description: "内核安卓版本"
         required: true
@@ -21,7 +21,7 @@ on:
       KERNEL_VERSION:
         description: "内核版本"
         required: true
-        default: '6.6'
+        default: '5.15'
 #     KERNEL_NAME:
 #       description: "修改内核名称"
 #       required: true
